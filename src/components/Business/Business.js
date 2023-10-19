@@ -2,19 +2,9 @@ import React from 'react';
 import styles from "./Business.module.css";
 
 
-const business ={   
-imageSrc: './pizza.jpg',
-name: 'Ginos Pizza',
-address: '1010 Paddington Way',
-city: 'Flavortown',
-state: 'NY',
-zipCode: '10101',
-category: 'Indian',
-rating: 4.5,
-reviewCount: 90   
-}
-function Business(){
-    
+
+
+const Business = ({ business }) => {
 
     return(
         <div className={styles.Business}>

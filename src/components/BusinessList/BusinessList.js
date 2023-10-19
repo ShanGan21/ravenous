@@ -4,17 +4,14 @@ import Business from "../Business/Business";
 
 
 
-function Businesslist() {
- 
+const BusinessList = ({ businesses }) => {
     return (
-        <div className={styles.BusinessList}>
-        <Business />
-        <Business />
-        <Business />
-        <Business />
-        <Business />
-        </div>
+      <div className={styles.BusinessList}>
+        {businesses.map((business) => {
+          return <Business business={business} key={business.name} />;
+        })}
+      </div>
     );
-};
+  };
 
-export default Businesslist;
+export default BusinessList;
