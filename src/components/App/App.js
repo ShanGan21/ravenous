@@ -4,11 +4,11 @@ import styles from "./App.module.css";
 
 import BusinessList from "../BusinessList/BusinessList";
 import SearchBar from "../SearchBar/SearchBar";
+import pizza from './pizza.jpg';
 
 
-
-const business ={   
-  imageSrc: "./pizza.jpg",
+const business = {   
+  imageSrc: pizza,
   name: 'Ginos Pizza',
   address: '1010 Paddington Way',
   city: 'Flavortown',
