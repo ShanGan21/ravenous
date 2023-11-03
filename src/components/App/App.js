@@ -9,7 +9,7 @@ import pizza from './pizza.jpg';
 
 const business = {   
   imageSrc: pizza,
-  name: 'Ginos Pizza',
+  name: 'Gino Pizza',
   address: '1010 Paddington Way',
   city: 'Flavortown',
   state: 'NY',
