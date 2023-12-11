@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 import styles from "./Business.module.css";
 
-
-
-
 const Business = ({ business }) => {
-
-    return(
-        <div className={styles.Business}>
+  return (
+    <div className={styles.Business}>
       <div className={styles.imageContainer}>
         <img src={business.imageSrc} alt="" />
       </div>
@@ -25,8 +21,7 @@ const Business = ({ business }) => {
         </div>
       </div>
     </div>
-
-    );
-}
+  );
+};
 
 export default Business;

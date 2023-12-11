@@ -1,31 +1,20 @@
 
-import React from "react";
+import React , { useState } from "react";
 import styles from "./App.module.css";
-
 import BusinessList from "../BusinessList/BusinessList";
 import SearchBar from "../SearchBar/SearchBar";
-import pizza from './pizza.jpg';
-
-
-const business = {   
-  imageSrc: pizza,
-  name: 'Gino Pizza',
-  address: '1010 Paddington Way',
-  city: 'Flavortown',
-  state: 'NY',
-  zipCode: '10101',
-  category: 'Indian',
-  rating: 4.5,
-  reviewCount: 90   
-  }
+import Yelp from "../../utils/Yelp";
 
   
-  const businesses = [business, business, business, business, business, business];
-    
 
 const App = () => {
-  const searchYelp = (term, location, sortBy) => {
-    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
+    const [businesses, setBusinesses] = useState([]);
+    const searchYelp = async (term, location, sortBy) => {
+
+    const emptybusinesses = [];
+    setBusinesses(emptybusinesses);
+    const businesses= await Yelp.search(term, location, sortBy);
+      setBusinesses(businesses);
   };
   return (
     <div className={styles.App}>
