@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Ravenous
+Part 1: (first commit) is the foundations of Ravenous by building the website’s homepage. Currently it has a static interface for Ravenous, which features a header, a search bar, and a list of businesses.                               
+Features
+1.The website allows users to scroll up and down to navigate through its content.
+2.Users can simulate a search by typing in the search bar
+3. A list of mock restaurant data is presented to the user.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Part 2: (second commit):transferring information between components more efficiently
+Features
+1. The website allows users to scroll up and down to navigate through its content.
+2. Users can simulate a search by typing in the search bar
+3. A list of mock restaurant data is presented to the user.
+4. Information is transferred efficiently between components using a unidirectional data flow pattern commonly used in React applications.
 
-## Available Scripts
+Part 3:  incorporated state into your React components.
+Features
+1. The website allows users to scroll up and down to navigate through its content.
+2. A list of mock restaurant data is presented to the user.
+3. Information is transferred efficiently between components using a unidirectional data flow pattern commonly used in React applications.
+4. Users can simulate a search query by typing and submitting it in the search bar.
 
-In the project directory, you can run:
+Part 4, (fourth commit) I connected my application to the Yelp API and enable users to interact with the web app to see live data that corresponds to their inputs.
 
-### `npm start`
+Features
+1. Users can query for a restaurant based on their location, and sort it by best match, highest rated, and most reviewed.
+2. Users can view a list of businesses that match their query, sorted by best match, highest rated, or most reviews.
+3. Users can repeatedly make multiple queries for a restaurant recommendation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech stack: HTML, CSS, JavaScript, React, Git and GitHub, HTTP Requests and Responses, Authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
